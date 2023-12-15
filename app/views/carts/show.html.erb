@@ -7,7 +7,8 @@
   <% if (enhanced_cart.length == 0)  %>
     <div> 
       <h3>You do not have any items in your cart yet.</h3>
-      <a href="/">Continue shopping</a>
+        </br>
+       <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
     </div>
     
   <% else %>
