@@ -14,5 +14,9 @@
   "devDependencies": {
     "cypress": "^9.7.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start:test-server": "RAILS_ENV=test rails server",
+    "test": "npm run start:test-server"
   }
 }
