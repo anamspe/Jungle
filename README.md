@@ -1,6 +1,12 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails.
+
+## Final Product
+
+![Jungle Product](https://github.com/anamspe/Jungle/blob/master/docs/Jungle-product1.png?raw=true)
+
+![Jungle Cart](https://github.com/anamspe/Jungle/blob/master/docs/Jungle-cart.png?raw=true)
 
 ## Setup
 
@@ -12,6 +18,21 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+
+## Functionalities
+* Navigate through the website to see a variety of products offered
+* Click on any product to see its details in a specific page
+* Visit our 'About Us' page to learn more about Jungle's story
+* Admin functionalities: Available only by admin user authentication
+  * List Categories and Products
+  * Add new categories
+  * Add new products
+  * Delete products
+
+## Notes
+* Jungle allows you to Login and/or Sign Up in any page of the website
+* Jungle will show when a given product is sold out and it won't be possible to add it to the cart
+
 
 ## Database
 
