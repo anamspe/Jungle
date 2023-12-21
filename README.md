@@ -8,17 +8,6 @@ A mini e-commerce application built with Rails.
 
 ![Jungle Cart](https://github.com/anamspe/Jungle/blob/master/docs/Jungle-cart.png?raw=true)
 
-## Setup
-
-1. Run `bundle install` to install dependencies
-2. Create `config/database.yml` by copying `config/database.example.yml`
-3. Create `config/secrets.yml` by copying `config/secrets.example.yml`
-4. Run `bin/rails db:reset` to create, load and seed db
-5. Create .env file based on .env.example
-6. Sign up for a Stripe account
-7. Put Stripe (test) keys into appropriate .env vars
-8. Run `bin/rails s -b 0.0.0.0` to start the server
-
 ## Functionalities
 * Navigate through the website to see a variety of products offered
 * Click on any product to see its details in a specific page
@@ -33,6 +22,16 @@ A mini e-commerce application built with Rails.
 * Jungle allows you to Login and/or Sign Up in any page of the website
 * Jungle will show when a given product is sold out and it won't be possible to add it to the cart
 
+## Setup
+
+1. Run `bundle install` to install dependencies
+2. Create `config/database.yml` by copying `config/database.example.yml`
+3. Create `config/secrets.yml` by copying `config/secrets.example.yml`
+4. Run `bin/rails db:reset` to create, load and seed db
+5. Create .env file based on .env.example
+6. Sign up for a Stripe account
+7. Put Stripe (test) keys into appropriate .env vars
+8. Run `bin/rails s -b 0.0.0.0` to start the server
 
 ## Database
 
